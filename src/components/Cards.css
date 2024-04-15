@@ -1,16 +1,18 @@
 .cards {
     padding: 4rem;
-    background: #fff;
+    background:#fff;
   }
   
   h1 {
     text-align: center;
+    text-decoration-line: underline;
   }
   
   .cards__container {
     display: flex;
     flex-flow: column;
-    align-items: center;
+    align-items:center;
+    justify-content:space-evenly;
     max-width: 1120px;
     width: 90%;
     margin: 0 auto;
@@ -30,6 +32,7 @@
     flex: 1;
     margin: 0 1rem;
     border-radius: 10px;
+    background-color: rgb(110, 155, 117);
   }
   
   .cards__item__link {
@@ -95,8 +98,10 @@
   
   .cards__item__text {
     color: #252e48;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 30px;
+    /* line-height: 24px; */
+    font-family:serif;
+    font-weight: 10px;
   }
   
   @media only screen and (min-width: 1200px) {
