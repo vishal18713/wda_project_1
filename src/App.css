@@ -5,7 +5,7 @@
   font-family: 'PT Sans', sans-serif;
 }
 
-.home,
+/* .home,
 .services,
 .products,
 .sign-up {
@@ -14,9 +14,9 @@
   align-items: center;
   justify-content: center;
   font-size: 3rem;
-}
+} */
 
-.services {
+/* .services {
   background-image: url('D:\react-website-v1\public\images\img-2.jpg');
   background-position: center;
   background-size: cover;
@@ -41,4 +41,4 @@
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
-}
+} */
