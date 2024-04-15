@@ -1,0 +1,54 @@
+/* TestimonialsPage.css */
+
+.testimonial-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.testimonial-container h2 {
+color:blueviolet;
+letter-spacing: 1.57px;
+}
+.testimonial-container label,#des{
+    font-size: larger;
+    color:rgb(99, 95, 95);
+}
+#testimonial-name,#testimonial-email{
+    width:480px;
+    height: 45px;
+    background-color: rgb(238, 225, 225);
+    border-radius: 13px;
+    padding-left: 10px;
+}
+
+  
+#testimonial-text{
+    width:500px;
+    height: 100px;
+    background-color:rgb(238, 225, 225) ;
+    border-radius: 13px;
+    padding-left: 10px;
+}
+#testimonial-text{
+    padding-top: 10px;
+    cursor: text; /* Set cursor to text on hover */
+  width: 500px; /* Reduce width on hover */
+  height: 100px; /* Increase height on hover */
+  resize: both; /* Allow resizing in both directions */
+}
+.testimonial-container button{
+    background-color:blueviolet;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.testimonial-container button:hover {
+    background-color:rgb(144, 76, 208);
+  }
+  
+  .testimonial-container button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }

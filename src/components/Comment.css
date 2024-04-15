@@ -1,0 +1,72 @@
+/* ContactUsPage.css */
+
+.contact-us-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  h2{
+    color:blueviolet;
+
+  }
+  p{
+    color:rgb(99, 95, 95);
+  }
+  #location{
+    width:660px;
+    height: 45px;
+    background-color: rgb(238, 225, 225);
+    border-radius: 4px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+  }
+  #question,#comment{
+    width:660px;
+
+    background-color: rgb(238, 225, 225);
+    border-radius: 4px;
+    padding-left: 10px;
+  }
+  #conten{
+    margin-top:40px;
+    width:670px;
+    height: 80px;
+    padding: 4px;
+    margin-left: 4px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color:rgb(238, 225, 225) ;
+    border-radius: 13px;
+    justify-content: center;
+   line-height: 1.4;
+
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 100px;
+  }
+  #btn{
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      margin-left: 50px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    #btn:hover {
+      background-color: #45a049;
+    }
+    
+    #btn:disabled {
+      background-color: #cccccc;
+      cursor: not-allowed;
+    }
+    
+  

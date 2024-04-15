@@ -1,0 +1,19 @@
+h5{
+    margin-left: 80px;
+    margin-right: 100px;
+    padding:3px;
+    margin-top:60px;
+    line-height: 1.7;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+p{
+    color: black;
+    margin-left: 80px;
+    margin-right: 149px;
+}
+h1{
+    color:blueviolet
+}
