@@ -1,14 +1,14 @@
 import React from 'react';
-import '../App.css';
+// import '../App.css';
 import { Button } from './Button';
-import './HeroSection.css';
+import './';
 
 function HeroSection() {
   return (
     <div className='hero-container'>
       
     
-      {/* <p>At our website, we provide resources, support, and information to help you navigate your mental health journey.</p> */}
+      <p>At our website, we provide resources, support, and information to help you navigate your mental health journey.</p>
       
     </div>
   );

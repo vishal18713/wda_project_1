@@ -1,6 +1,6 @@
-    .hero-container {
-    background: url('C:\Users\visha\OneDrive\Desktop\stock-photo-young-women-are-having-fun-on-the-green-field-in-the-evening-640692112.jpg') center center/cover no-repeat;
-    height: 50vh;
+.hero-container {
+    background: url('https://st4.depositphotos.com/14431644/31632/i/450/depositphotos_316323808-stock-photo-word-writing-text-mental-health.jpg') center center/cover no-repeat;
+    height: 80vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -18,9 +18,9 @@
   
   .hero-container > p {
     margin-top: 8px;
-    color: black;
+    color: white;
     font-size: 32px;
-    /* text-align: center; */
+    text-align: center;
   }
   
   .hero-btns {

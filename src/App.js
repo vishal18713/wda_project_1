@@ -4,6 +4,7 @@ import './App.css';
 import Home from './components/pages/Home';
 import AboutUs from './components/pages/AboutUs';
 import Navbar from './components/Navbar'; 
+import SignUp from './components/pages/SignUp';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         
         <Route path='/About_us' element={<AboutUs/>} />
         {/* <Route path='/products' element={<Products />} /> */}
-        {/* <Route path='/sign-up' element={<SignUp />} /> */}
+        <Route path='/sign-up' element={<SignUp />} />
        
       </Routes>
     </>
