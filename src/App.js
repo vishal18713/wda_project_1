@@ -5,6 +5,7 @@ import Home from './components/pages/Home';
 import ContactUs from './components/pages/ContactUs';
 import AboutUs from './components/pages/AboutUs';
 import Navbar from './components/Navbar'; 
+import SignUp from './components/pages/SignUp';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         <Route path='/Contact_us' element={<ContactUs/>} />
 
         {/* <Route path='/products' element={<Products />} /> */}
-        {/* <Route path='/sign-up' element={<SignUp />} /> */}
+        <Route path='/sign-up' element={<SignUp />} />
        
       </Routes>
     </>
