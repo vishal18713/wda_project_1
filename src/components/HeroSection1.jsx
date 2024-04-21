@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
-import { Button } from './Button';
-import './HeroSection1.css';
+// import { Button } from './Button';
+// import './HeroSection1.css';
 
 export const HeroSection1 = () => {
   return (
@@ -14,4 +14,3 @@ export const HeroSection1 = () => {
   )
 }
 
-export default HeroSection1

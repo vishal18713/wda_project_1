@@ -1,5 +1,5 @@
-    .hero-container {
-    background: url('C:\Users\visha\OneDrive\Desktop\stock-photo-young-women-are-having-fun-on-the-green-field-in-the-evening-640692112.jpg') center center/cover no-repeat;
+    .hero-container-1 {
+    background: url('../../public/images/image_1.jpg') center center/cover no-repeat;
     height: 50vh;
     width: 100%;
     display: flex;

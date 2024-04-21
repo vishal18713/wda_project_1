@@ -6,6 +6,7 @@ import ContactUs from './components/pages/ContactUs';
 import AboutUs from './components/pages/AboutUs';
 import Navbar from './components/Navbar'; 
 import SignUp from './components/pages/SignUp';
+import Chat from './components/pages/Chat';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path='/' element={<Home />} /> {/* Update Route syntax */}
         <Route path='/About_us' element={<AboutUs/>} />
         <Route path='/Contact_us' element={<ContactUs/>} />
+        <Route path='/chat' element={<Chat/>} />
 
         {/* <Route path='/products' element={<Products />} /> */}
         <Route path='/sign-up' element={<SignUp />} />
