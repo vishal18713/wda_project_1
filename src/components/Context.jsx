@@ -3,7 +3,7 @@ import './Context.css'
 const Context = () => {
 
   return (
-    <div>
+    <div id='main'>
     <h1>Contact Us</h1>
       <h5>Thank you for reaching out to Mental Health. Although we do not provide direct services ourselves, we'd like to help you find the resources to best support you or a loved one. </h5>
 <br></br>
