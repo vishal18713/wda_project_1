@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "../App.css";
-import { Button } from "./Button";
 import "./HeroSection2.css";
 function HeroSection2() {
   const [formData, setFormData] = useState({
@@ -40,7 +39,6 @@ function HeroSection2() {
       </video>
 
       <div className="main_div_2">
-        <h1>vishal</h1>
       </div>
       <div className="main_div_1">
         <div className="main_div_1_2">

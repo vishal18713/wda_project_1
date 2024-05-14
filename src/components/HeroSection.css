@@ -1,76 +1,195 @@
-    .hero-container-1 {
-    background: url('../../public/images/image_1.jpg') center center/cover no-repeat;
-    height: 50vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
-    object-fit: contain;
-  }
-  
+/* .hero-container-1 {
+  background: url("../../public/videos/v2.mp4") center center/cover no-repeat;
+  background-color: black;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+  padding-bottom: 200px;
+}
+#myVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+#myVideo::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-container > h1 {
+  color: white;
+  font-size: 100px;
+  margin-top: -100px;
+}
+
+.hero-container p {
+  margin-top: 8px;
+  color: black;
+  font-size: 40px;
+  /* text-align: center; */
+/* }
+
+.hero-btns {
+  margin-top: 32px;
+}
+
+.hero-btns .btn {
+  margin: 6px;
+}
+
+.fa-play-circle {
+  margin-left: 4px;
+}
+input {
+  font-weight: 200;
+} */
+
+/* @media screen and (max-width: 960px) {
   .hero-container > h1 {
-    color: white;
-    font-size: 100px;
+    font-size: 70px;
+    margin-top: -150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-container > h1 {
+    font-size: 50px;
     margin-top: -100px;
   }
-  
-  /* .hero-container > p {
-    margin-top: 8px;
-    color: black;
-    font-size: 40px;
-    /* text-align: center; */
-  /* }  */
 
-  .hero-container p{
-    margin-top: 8px;
-    color: black;
-    font-size: 40px;
-    /* text-align: center; */
+  .hero-container > p {
+    font-size: 30px;
   }
 
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
 
-  
-  .hero-btns {
-    margin-top: 32px;
+  .btn {
+    width: 100%;
   }
-  
-  .hero-btns .btn {
-    margin: 6px;
+}  */
+
+.hero-container-1 {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: black;
+}
+
+#myVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#myVideo::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  right: 0; /* Align content to the right */
+  transform: translateY(-50%);
+  text-align: right;
+  color: white;
+  z-index: 1;
+  width: 50%; /* Adjust the width as needed */
+  text-decoration: none;
+}
+
+.hero-content h1 {
+  font-size: 80px;
+  margin: 0;
+  color: black; /* Ensure text color is black */
+  text-decoration: none;
+}
+
+.hero-content p {
+  margin-top: 6px;
+  font-size: 40px;
+  color: black;
+  padding-right: 50px;
+}
+
+.hero-button {
+  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+  backdrop-filter: blur(15px); /* Apply the blur filter */
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  color: black;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  width: 200px;
+  margin: 0 auto; 
+  display: block; 
+  margin-top: 20px;
+}
+
+.hero-button:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Slightly more opaque on hover */
+}
+
+input {
+  font-weight: 200;
+}
+
+.hero-icon {
+  position: relative;
+  top: 15px;
+}
+
+@media screen and (max-width: 960px) {
+  .hero-content h1 {
+    font-size: 70px;
   }
-  
-  .fa-play-circle {
-    margin-left: 4px;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 50px;
   }
-  input{
-    font-weight: 200;
+
+  .hero-content p {
+    font-size: 30px;
   }
-  
-  @media screen and (max-width: 960px) {
-    .hero-container > h1 {
-      font-size: 70px;
-      margin-top: -150px;
-    }
+
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
   }
-  
-  @media screen and (max-width: 768px) {
-    .hero-container > h1 {
-      font-size: 50px;
-      margin-top: -100px;
-    }
-  
-    .hero-container > p {
-      font-size: 30px;
-    }
-  
-    .btn-mobile {
-      display: block;
-      text-decoration: none;
-    }
-  
-    .btn {
-      width: 100%;
-    }
+
+  .btn {
+    width: 100%; /* Ensure full width on small screens */
   }
-  
+}
