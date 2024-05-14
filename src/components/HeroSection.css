@@ -117,19 +117,19 @@ input {
 .hero-content {
   position: absolute;
   top: 50%;
-  right: 0; /* Align content to the right */
+  right: 0;
   transform: translateY(-50%);
   text-align: right;
   color: white;
   z-index: 1;
-  width: 50%; /* Adjust the width as needed */
+  width: 50%;
   text-decoration: none;
 }
 
 .hero-content h1 {
   font-size: 80px;
   margin: 0;
-  color: black; /* Ensure text color is black */
+  color: black;
   text-decoration: none;
 }
 
@@ -141,8 +141,8 @@ input {
 }
 
 .hero-button {
-  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
-  backdrop-filter: blur(15px); /* Apply the blur filter */
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px); 
   padding: 0.75rem 1.5rem;
   font-size: 1rem;
   color: black;
@@ -157,7 +157,7 @@ input {
 }
 
 .hero-button:hover {
-  background-color: rgba(255, 255, 255, 0.2); /* Slightly more opaque on hover */
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 input {
@@ -190,6 +190,6 @@ input {
   }
 
   .btn {
-    width: 100%; /* Ensure full width on small screens */
+    width: 100%; 
   }
 }

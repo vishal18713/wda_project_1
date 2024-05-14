@@ -31,10 +31,10 @@ letter-spacing: 1.57px;
 }
 #testimonial-text{
     padding-top: 10px;
-    cursor: text; /* Set cursor to text on hover */
-  width: 500px; /* Reduce width on hover */
-  height: 100px; /* Increase height on hover */
-  resize: both; /* Allow resizing in both directions */
+    cursor: text;
+  width: 500px; 
+  height: 100px; 
+  resize: both; 
 }
 .testimonial-container button{
     background-color:blueviolet;
