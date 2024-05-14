@@ -35,7 +35,7 @@ function Navbar() {
             <CgChanel />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
-          <FaBars color='white' />
+          <FaBars color='black' />
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>

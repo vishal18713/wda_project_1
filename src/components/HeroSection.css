@@ -16,12 +16,21 @@
     margin-top: -100px;
   }
   
-  .hero-container > p {
+  /* .hero-container > p {
     margin-top: 8px;
     color: black;
-    font-size: 32px;
+    font-size: 40px;
+    /* text-align: center; */
+  /* }  */
+
+  .hero-container p{
+    margin-top: 8px;
+    color: black;
+    font-size: 40px;
     /* text-align: center; */
   }
+
+
   
   .hero-btns {
     margin-top: 32px;
@@ -33,6 +42,9 @@
   
   .fa-play-circle {
     margin-left: 4px;
+  }
+  input{
+    font-weight: 200;
   }
   
   @media screen and (max-width: 960px) {
